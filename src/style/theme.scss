@@ -1,0 +1,23 @@
+// 默认为亮主题
+:root,
+page {
+  // 主题配色
+  --theme: #fff;
+  --color: #222326;
+  --button-background-primary: var(--color);
+  --button-content-primary: var(--theme);
+ 
+}
+ 
+// 暗黑主题
+@media (prefers-color-scheme: dark) {
+  :root,
+  page {
+    // 主题配色
+    --theme: #000;
+    --color: #fff;
+    --button-background-primary: var(--color);
+    --button-content-primary: var(--theme);
+ 
+  }
+}

@@ -45,6 +45,13 @@ export default defineConfig(async (merge, { command, mode }) => {
       options: {
       }
     },
+    sass: {
+      resource: [
+        'src/style/theme.scss',
+      ],
+      projectDirectory: path.resolve(__dirname, '..'),
+      // data: '$nav-height: 48px;'
+    },
     framework: 'vue3',
     compiler: {
       type: 'webpack5',
@@ -71,6 +78,38 @@ export default defineConfig(async (merge, { command, mode }) => {
           }
         }
       },
+
+      postcss: {
+        // 可以进行 autoprefixer 的配置。配置项参考官方文档 https://github.com/postcss/autoprefixer
+        autoprefixer: {
+          enable: true,
+          config: {
+            // autoprefixer 配置项
+          }
+        },
+        pxtransform: {
+          enable: true,
+          config: {
+            // pxtransform 配置项，参考尺寸章节
+            selectorBlackList: ['body']
+          }
+        },
+        // 小程序端样式引用本地资源内联
+        url: {
+          enable: true,
+          config: {
+            limit: 10240 // 设定转换尺寸上限
+          }
+        },
+        // css modules 功能开关与相关配置
+        cssModules: {
+          enable: false, // 默认为 false，如需使用 css modules 功能，则设为 true
+          config: {
+            generateScopedName: '[name]__[local]___[hash:base64:5]'
+          }
+        }
+      },
+    
       webpackChain(chain) {
         
         chain.plugin('unplugin-vue-components').use(Components({

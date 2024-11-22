@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 
 import './app.scss'
-
+import '@/style/theme.scss'
 const App = createApp({
   onShow(options) {
   },

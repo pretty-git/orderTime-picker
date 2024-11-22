@@ -370,8 +370,8 @@ export default {
 	}
 }
 </script>
-<style lang="scss">
-@use './pretty-times.scss';
+<style lang="scss" >
+@import './pretty-times.scss';
 
 page {
 	height: 100%;

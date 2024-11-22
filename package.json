@@ -52,6 +52,8 @@
     "@tarojs/runtime": "4.0.7",
     "@tarojs/shared": "4.0.7",
     "@tarojs/taro": "4.0.7",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
     "vue": "^3.3.0"
   },
   "devDependencies": {

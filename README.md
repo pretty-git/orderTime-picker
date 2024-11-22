@@ -1,3 +1,21 @@
+ #### 支持的环境 其余可执行验证，应该都支持
+ - [x] 微信小程序
+ - [x] 抖音小程序
+ - [x] H5
+
+<p align = "left">
+  
+<img src="https://img-cdn-tx.dcloud.net.cn/stream/plugin_screens/2afce870-3618-11eb-a8f3-e1f30a5c6517_0.png/webp?&v=1607076338"  align = "left"  width="200" />
+<img src="https://img-cdn-tx.dcloud.net.cn/stream/plugin_screens/2afce870-3618-11eb-a8f3-e1f30a5c6517_1.png/webp?&v=1607076343"  align = "left"  width="200" />
+<img src="https://img-cdn-tx.dcloud.net.cn/stream/plugin_screens/2afce870-3618-11eb-a8f3-e1f30a5c6517_2.png/webp?&v=1624181384"  align = "center"  width="200" />
+</p>
+<p>
+<img src="https://img-cdn-tx.dcloud.net.cn/stream/plugin_screens/2afce870-3618-11eb-a8f3-e1f30a5c6517_2.png/webp?&v=1624181384"  align = "left"  width="200" />
+<img src="https://img-cdn-tx.dcloud.net.cn/stream/plugin_screens/2afce870-3618-11eb-a8f3-e1f30a5c6517_3.png/webp?&v=1654768545"  align = "center"  width="200" />
+</p>
+
+
+  
 ```html
 <template>
 
